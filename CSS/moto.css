@@ -1,0 +1,64 @@
+/* navbar */
+.menu{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.menu a{
+text-align: center;
+    display: block;
+}
+
+#navbar ul li a{
+    color: gray;
+}
+
+#navbar label{
+    display: block;
+    cursor: pointer;
+}
+
+#toggle{
+    display: none;
+}
+
+#toggle:checked+.menu{
+    display: block;
+}
+
+/* home */
+#home::before{
+    height: 120vh;
+}
+
+#home h1{
+    font-size: 2.6rem;
+}
+
+/* clients-section */
+#clients-section{
+    height: 110vh;
+}
+
+#clients-section::before{
+    height: 110vh;
+}
+
+.design{
+    margin:8px;
+}
+
+.design img{
+    width: 70%;
+}
+
+#contact-box label{
+    font-size: 1.2rem;
+}
+
+#contact-box input,
+#contact-box textarea{
+font-size: 1rem;
+}
